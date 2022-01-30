@@ -2,6 +2,7 @@ const express = require("express");
 const app= express();
 const path = require("path");
 const hbs = require("hbs");
+const port = process.env.PPORT ||8000;
 require("./db/conn");
 
 const Register = require("./models/registers");
@@ -22,6 +23,7 @@ app.set("view engine","hbs");
 app.set("views",template_path);
 hbs.registerPartials(partial_path);
 
+console.log(static_path);
 console.log(static_path);
 
 
@@ -76,6 +78,6 @@ app.post("/myform",async(req,res)=>{
 })
 
 
-app.listen(8000, () => {
+app.listen(port, () => {
     console.log("LISTENING ON PORT 8000")
 })
