@@ -1,0 +1,68 @@
+body
+{
+    background-color:#8ecae6;
+    text-align: center;
+    
+}
+
+.div{
+    background-color: azure;
+    
+    height: 500px;
+    width: 600px;
+    border-radius: 30px;
+    margin: 50px;
+    margin-left: 500px;
+    margin-top: 140px;
+    transition: 3s;
+    
+}
+
+.post button:hover{
+    background-color: lightcoral;
+    color: lightseagreen;
+}
+
+#username
+{
+    color: olive;
+    text-align: center;
+    block-size: 2pc;
+    margin-top: 0.5cm;
+}
+#in
+{
+    font-size: 40px;
+    color: #6a040f;
+    text-align:right;
+}
+h1
+{
+    font-size: 60px;
+    color: #6a040f;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+#ash{
+    
+    background-color: azure;
+    height: 1000px;
+    width: 600px;
+    border-radius: 30px;
+    margin: 50px;
+    margin-left: 500px;
+   text-align: left;
+    transition: 3s;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+button{
+    align-items: center;
+}

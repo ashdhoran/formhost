@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <title>My form</title>
+</head>
+<body >
+    
+    <div class="div" id="front">
+
+    
+    <h1>My Details</h1>
+    <form action="/register" method="post">
+        <p>
+            <label id="in" for="username">Enter username:</label>
+            <br>
+            <input id="username" type="text" placeholder="username" required name="username">
+        </p>
+        <p>
+            <label id="in" for="password">Enter password:</label>
+            <br>
+            <input id="username" type="password" placeholder="password" required name="password">
+        </p>
+        <p class="butt">
+            
+            <input type="submit" class="btn btn-primary" value="Register">
+            <button type="button" class="btn btn-primary" onclick="location.href='/myform'">Sign in</button>
+            
+        </p>
+        
+        
+
+    </form>
+    </div>
+    
+</body>
+</html>
