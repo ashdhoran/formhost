@@ -2,7 +2,7 @@ const express = require("express");
 const app= express();
 const path = require("path");
 const hbs = require("hbs");
-const port = process.env.PORT ||8000;
+const port = process.env.PORT ||8080;
 require("./db/conn");
 
 const Register = require("./models/registers");
@@ -78,6 +78,10 @@ app.post("/myform",async(req,res)=>{
 })
 
 
-app.listen(port, () => {
-    console.log("LISTENING ON PORT 8000")
-})
+//app.listen(port, () => {
+   // console.log("LISTENING ON PORT 8000")
+//})
+
+app.listen(port,()=> { 
+ 
+  });
